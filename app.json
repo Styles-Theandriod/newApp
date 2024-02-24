@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "tinksafe_app",
+    "slug": "tinksafe_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#015AAC"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#015AAC"
+      },
+      "package": "com.stylestheandriod.tinksafe_app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4848eb4e-f8f7-4cfb-aa99-5bf6a724bd4e"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
